@@ -20,7 +20,7 @@ export const DisplayControl = () => {
 	const [rangeTime, setRangeTime] = useState(0);
 
 	const timeLineHandler = (evt) => {
-		//Control Slider Tiempo
+		//Control de Slider Tiempo
 		setRangeTime(evt.target.value);
 	};
 
