@@ -1,0 +1,20 @@
+.display-control {
+	border: 2px solid red;
+	height: 100%;
+	min-width: 45%; /*width*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	.display-control_dashboard {
+		width: 70%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.display-control_timeline {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+}
