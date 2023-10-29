@@ -1,0 +1,17 @@
+.range_input {
+	margin: 10px;
+	width: 100%;
+	appearance: none;
+	height: 6px;
+	outline: none;
+	border-radius: 10px;
+	background: rgb(88, 199, 88);
+}
+::-webkit-slider-thumb {
+	appearance: none;
+	width: 10px;
+	height: 8px;
+	cursor: pointer;
+	background: rgb(231, 231, 231);
+	border-radius: 40%;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../style/DisplayControl.css';
+import '../style/range_input.css';
 import {
 	AiFillPlayCircle,
 	AiFillStepBackward,
@@ -43,6 +44,7 @@ export const DisplayControl = () => {
 			<div className="display-control_timeline">
 				<p>{setTimeFormat(rangeTime)}</p>
 				<input
+					className="range_input"
 					type="range"
 					min="0"
 					max="200"

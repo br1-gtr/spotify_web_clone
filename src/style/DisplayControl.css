@@ -1,5 +1,5 @@
 .display-control {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	height: 100%;
 	min-width: 45%; /*width*/
 	display: flex;
@@ -13,6 +13,7 @@
 		align-items: center;
 	}
 	.display-control_timeline {
+		width: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
