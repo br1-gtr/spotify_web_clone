@@ -1,9 +1,10 @@
 import './App.css';
 import { NavControl } from './components/NavControl';
+import { PlaylistNav } from './components/PlaylistNav';
 function App() {
 	return (
 		<div>
-			<h1>spotify clon</h1>
+			<PlaylistNav />
 			<NavControl />
 		</div>
 	);
