@@ -2,10 +2,9 @@
 .playlist {
 	font-size: 18px;
 	padding: 10px;
-	width: 28vw;
-	height: 86vh; /*borde superior de panel control*/
-	/*background-color: blueviolet;*/
-	border: 2px solid rgb(255, 142, 142);
+	width: 37vw;
+	/*borde superior de panel control*/
+
 	/*Playlist HOME*/
 	.playlist_home {
 		margin-bottom: 10px;
@@ -32,7 +31,7 @@
 	/*Playlist DATA*/
 	.playlist_data {
 		font-weight: bold;
-		padding: 5px 15px;
+		padding: 2px;
 		border-radius: 8px;
 		background-color: var(--bg-section);
 		display: flex;
@@ -40,12 +39,18 @@
 		justify-content: center;
 		align-items: start;
 		.playlist_data-header {
+			height: 100%;
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			margin: 8px 0px;
-			> p {
-				margin-left: 12px;
+			.playlist_data-header_title {
+				padding-left: 10px;
+				width: 100%;
+				display: flex;
+				justify-content: start;
+				align-items: center;
 			}
 		}
 	}
