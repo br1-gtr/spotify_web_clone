@@ -9,3 +9,6 @@
 body {
 	background-color: var(--bg-main);
 }
+.playlist_main {
+	display: flex;
+}

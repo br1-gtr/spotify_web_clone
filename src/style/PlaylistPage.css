@@ -1,0 +1,24 @@
+@import './color.css';
+.playlistpage {
+	width: 100%;
+	background-color: rgb(94, 94, 94);
+
+	/*BANER*/
+	.playlistpage_baner {
+		.playlistpage_baner-main {
+			display: flex;
+			.baner-img {
+				width: 150px;
+				border-radius: 6px;
+			}
+		}
+	}
+
+	/*DATA*/
+	.playlistpage_data {
+		width: 100%;
+		.playlistpage_data-song {
+			display: flex;
+		}
+	}
+}
