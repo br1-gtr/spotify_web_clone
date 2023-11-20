@@ -2,7 +2,7 @@ const data = [
 	{
 		artist: 'Green Day',
 		cd: 'Dookie',
-		img: './src/assets/img/img_gd.jfif',
+		img: '../src/assets/img/img_gd.jfif',
 		songs: [
 			{ name: 'Burnout', time: 136 },
 			{ name: 'Chump', time: 162 },
@@ -22,7 +22,7 @@ const data = [
 	{
 		artist: 'Red Hot Chili Peppers',
 		cd: 'Californication',
-		img: './src/assets/img/img_rhcp.jfif',
+		img: '../src/assets/img/img_rhcp.jfif',
 		songs: [
 			{ name: 'Around The World', time: 238 },
 			{ name: 'Parallel Universe', time: 259 },
@@ -44,7 +44,7 @@ const data = [
 	{
 		artist: 'Misfits',
 		cd: 'Famous Monsters',
-		img: './src/assets/img/img_mis.jfif',
+		img: '../src/assets/img/img_mis.jfif',
 		songs: [
 			{ name: 'Kong at the Gates', time: 73 },
 			{ name: 'The Forbidden Zone', time: 115 },
@@ -66,7 +66,7 @@ const data = [
 	{
 		artist: 'Nickelback',
 		cd: 'All the Right Reasons',
-		img: './src/assets/img/img_nik.jfif',
+		img: '../src/assets/img/img_nik.jfif',
 		songs: [
 			{ name: 'Animals', time: 214 },
 			{ name: 'Far Away', time: 239 },
@@ -85,7 +85,7 @@ const data = [
 	{
 		artist: 'Linkin Park',
 		cd: 'Meteora',
-		img: './src/assets/img/img_lp.jfif',
+		img: '../src/assets/img/img_lp.jfif',
 		songs: [
 			{ name: 'Breaking the Habit', time: 192 },
 			{ name: "Don't Stay", time: 171 },
@@ -106,7 +106,7 @@ const data = [
 	{
 		artist: 'Foo Fighters',
 		cd: 'The Colour and the Shape',
-		img: './src/assets/img/img_ff.jfif',
+		img: '../src/assets/img/img_ff.jfif',
 		songs: [
 			{ name: 'Doll', time: 152 },
 			{ name: 'Enough Space', time: 178 },
@@ -125,7 +125,7 @@ const data = [
 	{
 		artist: 'Avenged Sevenfold',
 		cd: 'City of Evil',
-		img: './src/assets/img/img_ax7.jfif',
+		img: '../src/assets/img/img_ax7.jfif',
 		songs: [
 			{ name: 'Bat Country', time: 312 },
 			{ name: 'Beast and the Harlot', time: 326 },

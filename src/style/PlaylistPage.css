@@ -1,8 +1,13 @@
 @import './color.css';
 .playlistpage {
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 10px;
 	width: 100%;
+	height: 82vh;
 	background-color: rgb(94, 94, 94);
-
+	overflow-y: scroll;
 	/*BANER*/
 	.playlistpage_baner {
 		.playlistpage_baner-main {
@@ -17,8 +22,36 @@
 	/*DATA*/
 	.playlistpage_data {
 		width: 100%;
-		.playlistpage_data-song {
-			display: flex;
+		text-align: center;
+	}
+	.playlistpage_data-song {
+		font-size: 18px;
+		.table_index-play {
+			position: relative;
+			.song_play-icon {
+				/*PLAY*/
+				position: absolute;
+				top: 30%;
+				left: 40%;
+				display: none;
+			}
 		}
 	}
+	.table_song-artist {
+		text-align: left;
+		.table_band-artist-song {
+			font-weight: bold;
+		}
+	}
+	/*HOVER ICONO PLAY*/
+	.playlistpage_data-song:hover .song_play-icon {
+		display: block;
+	}
+}
+/*Estilo SCROLL*/
+.playlistpage::-webkit-scrollbar {
+	width: 8px;
+}
+.playlistpage::-webkit-scrollbar-thumb {
+	background-color: var(--light_2);
 }
